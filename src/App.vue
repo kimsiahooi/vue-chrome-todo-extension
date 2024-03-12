@@ -6,6 +6,7 @@
         id="new-task"
         placeholder="Add a new task..."
         class="p-[10px] w-full mb-[10px] border border-solid border-[#ddd] rounded outline-none"
+        @keydown.enter="addTaskFromInput"
         ref="taskRef" />
       <button
         id="add-task"
